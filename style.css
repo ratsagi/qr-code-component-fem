@@ -46,6 +46,7 @@ h1{
 p{
     color: var(--greyishBlue);
     font-weight: 400;
+    word-spacing: 0.0625rem;
 }
 h1,p{
     text-align: center;
