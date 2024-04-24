@@ -1,6 +1,6 @@
 :root{
-    --fs-p:15px;
-    --fs-h:22px;
+    --fs-p:0.9375rem;
+    --fs-h:1.375rem;
     --white:hsl(0, 0%, 100%);
     --lightGrey:hsl(212, 45%, 89%);
     --greyishBlue:hsl(220, 15%, 55%);
@@ -21,18 +21,19 @@ body{
     font-family: "Outfit", sans-serif;
 }
 main{
+    padding: 1rem;
     max-width: 20rem;
     background-color: var(--white);
 }
 img{
-   max-width: 18rem;
-   margin: 1rem 1rem 1.5rem;
+   max-width: 100%;
+   /* margin: 1rem 1rem 1.5rem; */
 }
 main,img{
     border-radius: 1.25rem;
 }
 section{
-    margin: 0 1rem 2.5rem;
+    margin: 1.5rem 0;
     padding: 0 0.8rem;
 }
 h1{
