@@ -29,14 +29,12 @@ main{
 img{
    max-width: 100%;
    border-radius: 0.625rem;
-   /* margin: 1rem 1rem 1.5rem; */
+ 
 }
-/* main,img{
-    border-radius: 1.25rem;
-} */
+
 section{
     margin: 1.5rem 0;
-    padding: 0 0.8rem;
+    padding: 0 1rem;
 }
 h1{
     font-size: var(--fs-h);
